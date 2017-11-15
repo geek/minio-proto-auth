@@ -1,0 +1,26 @@
+{
+  "name": "minio-proto-auth",
+  "version": "1.0.0",
+  "description": "hapi auth plugin",
+  "private": true,
+  "main": "lib",
+  "scripts": {
+    "lint": "belly-button",
+    "pretest": "npm run lint",
+    "test": "lab -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MPL-2",
+  "devDependencies": {
+    "belly-button": "^4.0.1",
+    "hapi": "^16.6.2",
+    "lab": "^14.3.1"
+  },
+  "dependencies": {
+    "boom": "^5.2.0",
+    "cryptiles": "^4.0.1",
+    "hoek": "^5.0.1",
+    "wreck": "^13.0.3"
+  }
+}
